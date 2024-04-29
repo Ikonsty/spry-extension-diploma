@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.overlay {
+	@apply fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-50;
+}
+
+.nav-button {
+	@apply text-[#D13ECB] text-base font-bold rounded-2xl px-2 transition ease-out duration-300 hover:bg-[#E3D6E7];
+}
+
+.info-text {
+	@apply border-b text-left text-[#727272] font-bold text-base;
+}
+
+@layer base {
+	input[type='number']::-webkit-inner-spin-button,
+	input[type='number']::-webkit-outer-spin-button {
+		-webkit-appearance: none;
+		margin: 0;
+	}
+}
+
+/* Search bar */
+
+.search-icon {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #919191;
+}
