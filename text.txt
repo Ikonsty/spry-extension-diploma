@@ -1,0 +1,4 @@
+CLIENT_ID=786136769301-gnsc9h2c24jdk6r45q7ge8n968d1e075.apps.googleusercontent.com
+CLIENT_SECRET=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
+REDIRECT_URI=https://kioknbjoaogjjfmbbiafkagepdhhfjje.chromiumapp.org
+STATE=cr3pgjcx
